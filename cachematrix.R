@@ -2,7 +2,7 @@
 
 ## makeCacheMatrix acts as a container and interface for an R matrix object.
 ## Via the get and set fucntion a matrix object can be assigned to the container.
-## In addition the container allows for the caching of an inverse of the stored matrix
+## In addition the container allows for the caching of an inverse of the stored matrix.
 ## After overwriting the matrix data the cached inverse is deleted.
 
 makeCacheMatrix <- function(x = matrix()) {
