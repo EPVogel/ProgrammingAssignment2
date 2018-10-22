@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The cacheSolve function returns the matrix inverse
 ## of the matrix that is stored in the datastructure supplied
-## by makeCacheMatrix the is passed to the function.
+## by makeCacheMatrix that is passed to the function.
 ## It will compute the inverse if no cached
 ## value is found, otherwise it returns the cached value.
 
